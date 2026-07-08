@@ -1,59 +1,57 @@
 # ALBAIK - Website Redesign Concept
 
-A design proposal reimagining albaik.com as a modern, bilingual, interactive experience.
-**Not an official ALBAIK product** - a concept by Eiman Wasim.
+This is a design proposal for albaik.com that aims to feel more modern, easier to browse, and better for both English and Arabic users.
 
-## Run it (2 commands)
+This is not an official ALBAIK product. It was created by Eiman Wasim as a concept.
+
+## How to run it
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the localhost link it prints. `npm run build` produces a production bundle in `dist/`.
-No API keys, no backend, no database, no analytics, no cookies - everything is static and self-contained.
+Open the local link that appears in the terminal. To create a production build, run:
 
-## What was upgraded vs. the current site
-
-1. **True bilingual EN/AR** - instant toggle, fully mirrored RTL layout, native Arabic typography (Baloo Bhaijaan 2 + Rubik, both with full Arabic support). The current site reloads the page and keeps an LTR layout.
-2. **Interactive menu** - 29 items with categories, bilingual search, spicy filter, calorie sorting, and a per-item nutrition modal. Calories are what customers actively search for; today that traffic goes to third-party sites.
-3. **Branch finder** - filterable branch cards by city with services and hours, replacing a plain text list.
-4. **Brand storytelling** - the 1974 Shakour AbuGhazalah story as an animated 50-year timeline, plus the suggestion-box tradition.
-5. **Modern foundation** - mobile-first, keyboard navigable, `prefers-reduced-motion` respected, instant client-side page transitions.
-
-There is a built-in **/compare** page presenting exactly this list, bilingual, for pitching.
-
-## Adding real food photography
-
-Food images are brand-gradient placeholders by default. Drop a photo into `public/food/`
-named by menu item id and it appears automatically (no code changes):
-
+```bash
+npm run build
 ```
+
+## What this concept changes
+
+- A real EN/AR language switch with a mirrored right-to-left layout.
+- A more useful menu with search, filters, sorting, and nutrition details.
+- A branch finder that makes locations easier to scan.
+- A stronger story section that highlights the brand history.
+- A faster, mobile-friendly front end with keyboard support and reduced-motion support.
+
+## Food images
+
+The site uses placeholder food artwork by default. If you want real photos, add them to `public/food/` using the menu item id as the file name.
+
+Example:
+
+```text
 public/food/chicken-4pc.jpg
 public/food/chicken-8pc.jpg
 public/food/big-baik.jpg
 public/food/fish-burger.jpg
 public/food/garlic-sauce.jpg
-public/food/story-hero.jpg   (the homepage story image)
+public/food/story-hero.jpg
 ```
 
-Any id from `src/data/menu.ts` works the same way.
+## Project layout
 
-## Structure
-
-```
+```text
 src/
-  i18n/          Language context + full EN/AR dictionaries
-  data/          menu.ts (29 items), branches.ts (12 branches)
-  components/    Nav, Footer, FoodImage, Reveal, AppBadges
-  pages/         Home, Menu, Branches, Story, Compare
+  i18n/        Language context and English/Arabic text
+  data/        Menu items and branch data
+  components/  Shared UI pieces
+  pages/       Main pages for the site
 ```
 
-Stack: Vite · React 18 · TypeScript · Tailwind CSS · React Router. Nothing else.
+## Important notes
 
-## Notes on data
+The branch data and calorie numbers are sample content, so they should be replaced with official information before real use.
 
-Sample branches and calorie figures are representative placeholders for the concept and
-should be replaced with official data before any real use. No prices are shown anywhere.
-Ordering intentionally routes to the official ALBAIK mobile apps, matching the brand's
-current strategy.
+No prices are shown in the site. Ordering links go to the official ALBAIK mobile apps.

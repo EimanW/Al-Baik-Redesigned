@@ -31,7 +31,6 @@ export default function Footer() {
             <li><Link className="nav-drip inline-block [--drip:#FFC72C] hover:text-baik-yellow" to="/menu">{t('nav_menu')}</Link></li>
             <li><Link className="nav-drip inline-block [--drip:#FFC72C] hover:text-baik-yellow" to="/branches">{t('nav_branches')}</Link></li>
             <li><Link className="nav-drip inline-block [--drip:#FFC72C] hover:text-baik-yellow" to="/story">{t('nav_story')}</Link></li>
-            <li><Link className="nav-drip inline-block [--drip:#FFC72C] hover:text-baik-yellow" to="/compare">{t('nav_compare')}</Link></li>
           </ul>
         </div>
         <div className="flex flex-col justify-between gap-4">

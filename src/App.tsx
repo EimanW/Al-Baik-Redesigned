@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Branches from './pages/Branches';
 import Story from './pages/Story';
-import Compare from './pages/Compare';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -26,7 +25,6 @@ export default function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/branches" element={<Branches />} />
         <Route path="/story" element={<Story />} />
-        <Route path="/compare" element={<Compare />} />
       </Routes>
       <Footer />
     </>

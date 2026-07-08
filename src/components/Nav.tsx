@@ -7,7 +7,6 @@ const links = [
   { to: '/menu', key: 'nav_menu' },
   { to: '/branches', key: 'nav_branches' },
   { to: '/story', key: 'nav_story' },
-  { to: '/compare', key: 'nav_compare' },
 ] as const;
 
 export default function Nav() {
