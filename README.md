@@ -2,7 +2,7 @@
 
 This is a design proposal for albaik.com that aims to feel more modern, easier to browse, and better for both English and Arabic users.
 
-This is not an official ALBAIK product. It was created by Eiman Wasim as a concept.
+This is not an official ALBAIK product. It is a concept.
 
 ## How to run it
 
