@@ -106,7 +106,7 @@ function Hero() {
   const [videoOk, setVideoOk] = useState(true);
   useHeroParallax(ref, reduced);
 
-  const echo = lang === 'ar' ? "MMMMM's" : 'ممممم';
+  const echo = lang === 'ar' ? 'AL BAIK' : 'البيك';
   const tickerItems = menu.slice(0, 12).flatMap((m) => [m.en, m.ar]);
 
   return (
@@ -328,7 +328,7 @@ export default function Home() {
           className="text-outline-cream pointer-events-none absolute -start-6 bottom-6 select-none whitespace-nowrap font-display text-[clamp(6rem,15vw,12rem)] font-extrabold leading-none opacity-40"
           aria-hidden="true"
         >
-          {lang === 'ar' ? 'WOOOW' : 'واااو'}
+          {lang === 'ar' ? 'البيك' : 'AL BAIK'}
         </span>
         <div className="relative mx-auto max-w-6xl px-4 py-28">
           <Reveal>

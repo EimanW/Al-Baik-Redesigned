@@ -10,8 +10,8 @@ const en = {
 
   // Hero
   hero_eyebrow: 'Since 1974 · Proudly Saudi',
-  hero_title_1: "MMMMM's",
-  hero_title_2: "& WOOOW's",
+  hero_title_1: 'AL BAIK',
+  hero_title_2: 'البيك',
   hero_sub: 'On our customers\u2019 lips every time, everywhere in the world. The taste Saudi Arabia grew up with — reimagined for the web.',
   hero_cta_menu: 'Explore the menu',
   hero_cta_branches: 'Find a branch',
@@ -29,7 +29,7 @@ const en = {
   purpose_body:
     'We shall always protect the AMANA that God has blessed us with, and work together to nourish and spread it responsibly, so its goodness can be enjoyed by everyone, everywhere the world over.',
   vision_title: 'Vision',
-  vision_body: 'Putting MMMMM\u2019s and WOOOW\u2019s on our customers\u2019 lips every time, everywhere in the world.',
+  vision_body: 'Putting AL BAIK and البيك on our customers\u2019 lips every time, everywhere in the world.',
   mission_title: 'Mission',
   mission_body: '100% ALBAIK Customer Love at all times.',
 
@@ -117,8 +117,8 @@ const ar: Record<TranslationKey, string> = {
   nav_order: 'اطلب من التطبيق',
 
   hero_eyebrow: 'منذ ١٩٧٤ · صنع في السعودية بكل فخر',
-  hero_title_1: 'ممممم',
-  hero_title_2: 'وواااو!',
+  hero_title_1: 'AL BAIK',
+  hero_title_2: 'البيك',
   hero_sub: 'على شفاه عملائنا في كل مرة، وفي كل مكان حول العالم. الطعم الذي كبرت معه المملكة — بتجربة رقمية جديدة.',
   hero_cta_menu: 'استكشف القائمة',
   hero_cta_branches: 'ابحث عن فرع',
@@ -134,7 +134,7 @@ const ar: Record<TranslationKey, string> = {
   purpose_body:
     'سنحافظ دائمًا على الأمانة التي أنعم الله بها علينا، وسنعمل معًا على تنميتها ونشرها بمسؤولية، لكي ينعم بخيرها الجميع في كل مكان حول العالم.',
   vision_title: 'رؤيتنا',
-  vision_body: 'رسم "ممممم" و"واااو" على شفاه عملائنا في كل مرة، وفي كل مكان حول العالم.',
+  vision_body: 'وضع AL BAIK و البيك على شفاه عملائنا في كل مرة، وفي كل مكان حول العالم.',
   mission_title: 'رسالتنا',
   mission_body: 'حب عملاء البيك ١٠٠٪ في كل الأوقات.',
 
